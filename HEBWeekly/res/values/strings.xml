@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">H-E-B Weekly ADs</string>
+    <string name="weekly_ads_label">Weekly Ads and Sales</string>
+    <string name="coupon_label">Coupon</string>
+    <string name="shopping_list_label">Shopping List</string>
+    <string name="GOOGLE_PLACES_API_KEY">AIzaSyDI9oKyroNMwBTCSWEoSgVfrKtvQ10S3jw</string>
+    <string name="shopping_list">Shopping List</string>
+    <string name="store">Stores</string>
+    <string name="find_your_location">Press to auto-detect</string>
+    <string name="add">Add to shopping list</string>
+    <string name="product_image_description">image</string>
+    <string name="title_string">title</string>
+    <string name="price_string">0</string>
+    <string name="more_price"></string>
+    <string name="view_string">View Shopping list</string>
+    <string name="no_notes">No item</string>
+    <string name="menu_insert">Add Note</string>
+    <string name="menu_delete">Delete it</string>
+    <string name="title">Title</string>
+    <string name="body">Body</string>
+    <string name="confirm">Confirm</string>
+    <string name="display_list_detail">List Detail</string>
+    <string name="mark_expired">Mark as purchased</string>
+    <string name="left_arrow">&#8592;</string>
+    <string name="right_arrow">&#8594;</string>
+    <string name="app_notice">H-E-B weekly sales, deals and coupons</string>
+    <string name="product_list">Product List</string>
+    <string name="category_list"> Product Categories</string>
+    <string name="location_list">Stores Around 5 Miles</string>
+    <string name="about_desc1">H-E-B Grocery Stores (H-E-B) is a privately held San Antonio, Texas-based supermarket chain with more than 315 stores throughout Texas and northern Mexico. The company also operates Central Market, an upscale organic and fine foods retailer.</string>
+    <string name="about_desc2">The app provides an easy way to browse the weekly ads, deals and coupon from your nearby H-E-B store. You can also add the product item into your shipping list, with the friendly coupon reminding, you can save more.</string>
+    <string name="about_desc4">If the app really helps you save some money, please consider upgrading to a full version. The full version removes the ads, add more features such as maps of H-E-B, store coupons and sync with a web interface.</string>
+    <string name="about_desc5">This app is not affiliated with the H-E-B.</string>
+    <string name="about_string">About</string>
+    <string name="coupon_list">Coupon List</string>
+    <string name="refresh">Get New List</string>
+    <string name="wait">Please wait &#8230;&#8230;&#8230;contacting the server.</string>
+    <string name="upgrade">Please upgrade to see the feature</string>
+    <string name="remind_no_gps">Make sure your phone can access GPS, wifi, or you are living in Texas.</string>
+    <string name="request">Requesting your nearby H-E-B </string>
+    <string name="status1">Status changed: out of status</string>
+    <string name="status2">Status changed: Temporaritly Unavailables</string>
+    <string name="status3">Status changed: Availables</string>
+    <string name="product_detail">Product Detail</string>
+    
+</resources>

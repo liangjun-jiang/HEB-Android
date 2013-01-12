@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+    <LinearLayout
+        android:id="@+id/action_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="50sp"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true"
+         >
+
+       <TextView
+            android:id="@+id/title"
+            android:layout_width="270dp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:background="#f03a2d"
+            android:gravity="center"
+            android:textSize="20dp"
+          	android:textStyle="bold"
+            android:text="@string/title_string"
+            android:textColor="#ffffff" />
+
+       <ImageView
+           android:id="@+id/imageView1"
+           android:layout_width="fill_parent"
+           android:layout_height="fill_parent"
+           android:layout_gravity="center"
+           android:background="#76a6c7"
+           android:src="@drawable/shopping_list" />
+
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/content_id"
+        android:layout_width="fill_parent"
+        android:layout_height="370dp"
+        android:layout_below="@+id/action_bar"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/name_id"
+            android:layout_width="233dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/title_string"
+            android:textColor="#2fbad4"
+            android:textSize="18dp" />
+
+	    <TextView
+	        android:id="@+id/price_id"
+	        android:layout_width="113dp"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="5dp"
+	        android:text="@string/price_string"
+	        android:textColor="#f03a2d"
+	        android:textSize="18dp" />
+	
+	    <TextView
+	        android:id="@+id/more_id"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_margin="5dp"
+	        android:text="@string/more_price"
+	        android:textSize="18dp" />
+	
+	    <ImageView
+	        android:id="@+id/image_id"
+	        android:layout_width="150dp"
+	        android:layout_height="150dp"
+	        android:layout_gravity="center"
+	        android:layout_marginTop="5dp"
+	        android:contentDescription="@string/product_image_description"
+	        android:src="@drawable/burger" />
+	
+	    
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/add_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:text="@string/add" />
+
+</RelativeLayout>

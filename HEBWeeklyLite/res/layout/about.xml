@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/android_640x960"
+    android:orientation="vertical" >
+    
+    <com.google.ads.AdView
+      xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"  
+      android:id="@+id/ads" 
+      android:layout_width="fill_parent" 
+      android:layout_height="wrap_content"
+      android:layout_alignParentBottom="true"
+      ads:adUnitId="a14f05cc51d50c5"
+      ads:adSize="BANNER"
+      ads:testDevices="TEST_EMULATOR, TEST_DEVICE_ID"
+      ads:loadAdOnCreate="true"
+    />
+    
+      <LinearLayout
+        android:id="@+id/action_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="50sp"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true"
+         >
+
+       <TextView
+            android:id="@+id/title"
+            android:layout_width="270dp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:background="#f03a2d"
+            android:gravity="center"
+            android:textSize="20dp"
+          	android:textStyle="bold"
+            android:text="@string/title_string"
+            android:textColor="#ffffff" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:background="#76a6c7"
+            android:gravity="center"
+            android:src="@drawable/vegbox" />
+             />
+    </LinearLayout>
+
+     <TextView
+         android:id="@+id/tv1"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/action_bar"
+         android:layout_centerHorizontal="true"
+         android:layout_margin="4sp"
+         android:layout_marginTop="10dp"
+         android:text="@string/about_desc1" />
+
+     <TextView
+         android:id="@+id/tv2"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/tv1"
+         android:layout_centerHorizontal="true"
+         android:layout_margin="4sp"
+         android:text="@string/about_desc2" />
+     
+      <TextView
+         android:id="@+id/tv5"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/tv2"
+         android:layout_centerHorizontal="true"
+         android:layout_margin="4sp"
+         android:text="@string/about_desc5" />
+      
+      
+</RelativeLayout>

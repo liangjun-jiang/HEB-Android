@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="fill_parent" 
+	android:layout_height="fill_parent"
+	android:background="@drawable/android_640x960"
+    >
+
+      <TextView
+          android:id="@+id/app_name"
+          android:layout_width="fill_parent"
+          android:layout_height="50dp"
+          android:background="#f03a2d"
+          android:gravity="center"
+          android:text="@string/app_name"
+          android:textColor="#ffffff"
+          android:textSize="20dp"
+          android:textStyle="bold" />
+
+    <GridView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/myGrid"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/app_notice"
+        android:columnWidth="150dp"
+        android:gravity="center"
+        android:horizontalSpacing="30dp"
+        android:numColumns="1"
+        android:paddingTop="60dp"
+        android:paddingLeft="60dp"
+        android:paddingRight="60dp"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="30dp" />
+    
+</RelativeLayout>
+

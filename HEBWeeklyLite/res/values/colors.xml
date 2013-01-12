@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#000000</color>
+    <color name="scrollview_background">#ffffff</color>
+    <color name="action_bar_text">#ffffff</color>
+    <color name="action_bar_background">#fb6d44</color>
+    <color name="selected">#fb6d44</color>
+    <color name="foreground">#ffb410</color>
+    <color name="frame_bg2">#76a6c7</color>
+    <color name="frame_bg1">#ebebeb</color>
+    <color name="text">#fb6d44</color>
+    <color name="list_bg">#999999</color>
+    <color name="divide_color">#FFCC00</color>
+    <color name="child_text">#ffCCCC22</color>
+    
+    <color name="translucent_grey">#c999</color>
+	<color name="dark_grey">#333</color>
+	
+	<color name="title_background">#f03a2d</color>
+    <color name="title_text">#ffffffff</color>
+    <color name="title_text_alt">#ff000000</color>
+    <color name="foreground1">#ff355689</color>
+    <color name="foreground2">#ff7081a3</color>
+    <color name="background1">#ffffffff</color>
+    <color name="background2">#ffd5ddeb</color>
+    <color name="background3">#ffe3e8f1</color>
+    <color name="title_separator">#40ffffff</color>
+</resources>

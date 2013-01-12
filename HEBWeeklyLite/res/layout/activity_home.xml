@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   
+    android:id="@+id/db1_root"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+    <LinearLayout style="@style/TitleBar">
+        <TextView
+            style="@style/TitleBarText"
+            android:layout_gravity="center"
+            android:gravity="center|center_horizontal"
+            android:text="@string/app_name" />
+        
+	</LinearLayout>
+	<LinearLayout
+	    android:orientation="vertical"
+	    android:layout_width="fill_parent"
+	    android:layout_height="0dp"
+	    android:baselineAligned="false"
+	    android:layout_weight="1"
+	    android:padding="6dip">
+	    <LinearLayout
+	        android:orientation="horizontal"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1" 
+	        >
+	        
+	        <Button android:id="@+id/home_btn_ads"
+	            style="@style/HomeButton"
+	            android:text = "@string/weekly_ads_label"
+	            android:drawableTop="@drawable/ads"/>
+	        
+	    </LinearLayout>
+	
+	    <LinearLayout
+	        android:orientation="horizontal"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        >
+	        
+	        <Button android:id="@+id/home_btn_list"
+	            style="@style/HomeButton"
+	            android:text = "@string/shopping_list"
+	            android:drawableTop="@drawable/list"/>
+	        />
+	    </LinearLayout>
+	
+	    <LinearLayout
+	        android:orientation="horizontal"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1">
+	       
+	        <Button android:id="@+id/home_btn_about"
+	            style="@style/HomeButton"
+	            android:text = "@string/about_string"
+	            android:drawableTop="@drawable/about"/>
+	        />
+	    </LinearLayout>
+	</LinearLayout>
+</LinearLayout>
